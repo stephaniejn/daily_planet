@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>I am Daily Planet</title>
+</head>
+<body>
+<h1> Articles List </h1>
+<ul>
+	<% for(var i=0; i <articles.length; i++){ %>
+	<li>
+	<a href='article/<%= i %>'>
+	<%= articles[i].title %></a>
+	</li> 
+<% } %>
+</ul>
+</body>
+</html>
